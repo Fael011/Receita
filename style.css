@@ -8,3 +8,20 @@ body{
     background-color: #f3e5d7;
 }
 
+body > div{
+    max-width: 733px;
+    background-color: #fff;
+    padding: 3rem;
+    margin-inline: auto;
+    border-radius: 10px;
+}
+
+div img{
+    width: 100%;
+}
+
+h2{
+    font-family: "Lora", serif;
+}
+
+
