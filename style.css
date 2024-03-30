@@ -23,15 +23,24 @@ div img{
     margin-bottom: 40px;
 }
 
-h2{
-    font-family: "Lora", serif;
-}
-
 h1{
     font-size: 40px;
     color: #312e2c;
     line-height: 100%;
     margin-bottom: 24px;
+}
+
+h2{
+    font-family: "Lora", serif;
+    font-size: 28px;
+    color: #854632;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+hr{
+    border: 1px solid #e3ddd7;
+    margin-block: 32px;
 }
 
 p, li, th, td{
@@ -77,4 +86,13 @@ ol, ul{
 .Tempo li::marker{
    color: #7a284e;
    font-size: 12px;
+}
+
+.Ingredientes li::marker{
+    color: #854632;
+}
+
+.Preparo li::marker{
+    color: #854632;
+    font-weight: 700;
 }
